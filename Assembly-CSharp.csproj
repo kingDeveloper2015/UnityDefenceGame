@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{5928839B-83E5-A2E2-C15B-5BE484E33645}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_3;UNITY_5_3;UNITY_5;UNITY_PURCHASING;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity_533/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity_533/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Flurry\Analytics\Flurry.cs" />
+     <Compile Include="Assets\Flurry\Analytics\FlurryAndroid.cs" />
+     <Compile Include="Assets\Flurry\Analytics\FlurryIOS.cs" />
+     <Compile Include="Assets\Flurry\Analytics\IAnalytics.cs" />
+     <Compile Include="Assets\Flurry\Analytics\MonoSingleton.cs" />
+     <Compile Include="Assets\Flurry\TestScript.cs" />
+     <Compile Include="Assets\Scripts\AdsController.cs" />
+     <Compile Include="Assets\Scripts\AnalyticsManager.cs" />
+     <Compile Include="Assets\Scripts\AnimatorHandler.cs" />
+     <Compile Include="Assets\Scripts\AnimatorHandlerX.cs" />
+     <Compile Include="Assets\Scripts\ButtonEvents.cs" />
+     <Compile Include="Assets\Scripts\CameraScript.cs" />
+     <Compile Include="Assets\Scripts\ChangeLevel.cs" />
+     <Compile Include="Assets\Scripts\Controllers\GameController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\InAppController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\ReviewController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\TimerController.cs" />
+     <Compile Include="Assets\Scripts\CustomAnimator.cs" />
+     <Compile Include="Assets\Scripts\Data\TimerData.cs" />
+     <Compile Include="Assets\Scripts\FlyingObjectMover.cs" />
+     <Compile Include="Assets\Scripts\Level\Level1.cs" />
+     <Compile Include="Assets\Scripts\Level\Level10.cs" />
+     <Compile Include="Assets\Scripts\Level\Level11.cs" />
+     <Compile Include="Assets\Scripts\Level\Level12.cs" />
+     <Compile Include="Assets\Scripts\Level\Level13.cs" />
+     <Compile Include="Assets\Scripts\Level\Level14.cs" />
+     <Compile Include="Assets\Scripts\Level\Level15.cs" />
+     <Compile Include="Assets\Scripts\Level\Level16.cs" />
+     <Compile Include="Assets\Scripts\Level\Level17.cs" />
+     <Compile Include="Assets\Scripts\Level\Level18.cs" />
+     <Compile Include="Assets\Scripts\Level\Level19.cs" />
+     <Compile Include="Assets\Scripts\Level\Level2.cs" />
+     <Compile Include="Assets\Scripts\Level\Level20.cs" />
+     <Compile Include="Assets\Scripts\Level\Level21.cs" />
+     <Compile Include="Assets\Scripts\Level\Level3.cs" />
+     <Compile Include="Assets\Scripts\Level\Level4.cs" />
+     <Compile Include="Assets\Scripts\Level\Level5.cs" />
+     <Compile Include="Assets\Scripts\Level\Level6.cs" />
+     <Compile Include="Assets\Scripts\Level\Level7.cs" />
+     <Compile Include="Assets\Scripts\Level\Level8.cs" />
+     <Compile Include="Assets\Scripts\Level\Level9.cs" />
+     <Compile Include="Assets\Scripts\PointIndicator.cs" />
+     <Compile Include="Assets\Scripts\TrialVersionController.cs" />
+     <Compile Include="Assets\Scripts\UI\BestLevelUI.cs" />
+     <Compile Include="Assets\Scripts\UI\InGameLevelTextItem.cs" />
+     <None Include="Assets\DOTween\DOTween50.xml" />
+     <None Include="Assets\Resources\TotalLevel.txt" />
+     <None Include="Assets\Flurry\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\DOTween\DOTween46.xml" />
+     <None Include="Assets\Plugins\AppLovin\AppLovin Readme.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Fonts\PersonalUseEULA.txt" />
+     <None Include="Assets\DOTween\DOTween43.xml" />
+     <None Include="Assets\DOTween\readme.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity_533/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity_533/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Program Files/Unity_533/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>D:/UnityRelated/FreeLance/[v0.93 Full] Polished Menu, Level 1 - 40/[v0.99 Full] Polished Menu, Level 1 - 40/Assets/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>D:/UnityRelated/FreeLance/[v0.93 Full] Polished Menu, Level 1 - 40/[v0.99 Full] Polished Menu, Level 1 - 40/Assets/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>D:/UnityRelated/FreeLance/[v0.93 Full] Polished Menu, Level 1 - 40/[v0.99 Full] Polished Menu, Level 1 - 40/Assets/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>D:/UnityRelated/FreeLance/[v0.93 Full] Polished Menu, Level 1 - 40/[v0.99 Full] Polished Menu, Level 1 - 40/Assets/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>D:/UnityRelated/FreeLance/[v0.93 Full] Polished Menu, Level 1 - 40/[v0.99 Full] Polished Menu, Level 1 - 40/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>D:/UnityRelated/FreeLance/[v0.93 Full] Polished Menu, Level 1 - 40/[v0.99 Full] Polished Menu, Level 1 - 40/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>D:/UnityRelated/FreeLance/[v0.93 Full] Polished Menu, Level 1 - 40/[v0.99 Full] Polished Menu, Level 1 - 40/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{33CA1CBC-A426-4A9E-F158-815E6B826024}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

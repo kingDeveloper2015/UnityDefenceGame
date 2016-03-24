@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ButtonEvents.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Level\Level21.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AdsController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UI\InGameLevelTextItem.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Editor\AssignAnims.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Controllers\GameController.cs" Line="35" Column="114" />
+      <File FileName="Assets\Scripts\AnalyticsManager.cs" Line="106" Column="1" />
+      <File FileName="Assets\Scripts\ButtonEvents.cs" Line="31" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Malik\Downloads\[v0.90 Full] Polished Menu, Level 1 - 40\[v0.99 Full] Polished Menu, Level 1 - 40\Assets\Scripts\UI\InGameLevelTextItem.cs" line="44" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
